@@ -1,0 +1,23 @@
+== Introdução
+
+Vivemos cada vez mais num mundo ditado por tecnologia e rapidez de informação, no qual a capacidade de obter todo o conhecimento do mundo na ponta dos nossos dedos o mais depressa possível é uma necessidade bastante real do cidadão do mundo atual, e cuja necessidade precisa da constante evolução do mundo tecnológico.
+
+= 1G
+  Os primórdios da comunicação móvel começam na década de 80 pelo inicial 1G, cujo G significa "geração". Esta era a primeira tecnologia de comunicação móvel, e era marcada por comunicação analógica(1) com torres de rádio, permitindo chamadas de voz entre utilizadores. Como seria de esperar pela era quando começou, esta tecnologia era aplicada em dispositivos de comunicação com menos funcionalidades que as dos dias de hoje, entre as quais "pagers" e telefones sem fios(1)
+
+= 2G
+  A segunda geração que foi introduzida no fim da década de 80 (1) foi marcada pela era digital. As chamadas continuavam a ser enviadas via rádio, mas foi introduzida a prática de codificação digital. Ou seja, a informação que era transmitida pelos dispositivos móveis era inicialmente codificada digitalmente, e isto garantia várias vantagens entre as quais a diminuição de ruído e diminuição de consumo de bateria comparando com a antiga geração analógica.
+
+= 3G
+  Esta geração foi inicialmente disponibilizada no inicio do século 21. Esta foi marcada por uma maior taxa de transferência de informação que consequentemente disponibilizou um conjunto de aplicações que antes seriam impossíveis, entre as quais:
+.GPS
+.Televisão
+.Conferências de vídeo
+
+4G
+  A geração mais atual com uso em massa é a quarta, e é marcada com um conjunto de especificações que superiorizam as capacidades da geração anterior. Apesar de bastantes empresas publicitarem os seus serviços como 4G, bastantes deles não cumprem toda a gama de padrões definidos pela ITMA (International Mobile Telecommunications Advanced), entre as quais(5):
+.Deve ser baseada num "IP packet switching" contra a alternativa de troca de circuitos. (TODO: pesquisar isto)
+.Taxas de transferência de informação de 100Mb/s numa rede com bastante movimento, e de 1Gb/s em regiões de acesso "wireless" local.
+
+4G para 5G
+ (TODO)
