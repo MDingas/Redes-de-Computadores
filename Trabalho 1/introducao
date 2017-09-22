@@ -7,10 +7,10 @@
   A evolução das tecnologias utilizadas em transferência de dados móveis e o resultante aumento de capacidade de taxa de transferência levou à separação das várias eras por gerações que, até ao momento, são:
 
 = 1G
-  Os primórdios da comunicação móvel começam na década de 80 pelo inicial 1G, cujo G significa "geração". Esta era a primeira tecnologia de comunicação móvel, e era marcada por comunicação analógica(1) com torres de rádio, permitindo chamadas de voz entre utilizadores. Como seria de esperar pela era quando começou, esta tecnologia era aplicada em dispositivos de comunicação com menos funcionalidades que as dos dias de hoje, entre as quais "pagers" e telefones sem fios(1)
+  Os primórdios da comunicação móvel começam na década de 80 pelo inicial 1G, cujo G significa "geração". Esta era a primeira tecnologia de comunicação móvel, e era marcada por comunicação analógica(4) com torres de rádio, permitindo chamadas de voz entre utilizadores. Como seria de esperar pela era quando começou, esta tecnologia era aplicada em dispositivos de comunicação com menos funcionalidades que as dos dias de hoje, entre as quais "pagers" e telefones sem fios(4)
 
 = 2G
-  A segunda geração que foi introduzida no fim da década de 80 (1) foi marcada pela era digital. As chamadas continuavam a ser enviadas via rádio, mas foi introduzida a prática de codificação digital. Ou seja, a informação que era transmitida pelos dispositivos móveis era inicialmente codificada digitalmente, e isto garantia várias vantagens entre as quais a diminuição de ruído e diminuição de consumo de bateria comparando com a antiga geração analógica.
+  A segunda geração que foi introduzida no fim da década de 80 (4) foi marcada pela era digital. As chamadas continuavam a ser enviadas via rádio, mas foi introduzida a prática de codificação digital. Ou seja, a informação que era transmitida pelos dispositivos móveis era inicialmente codificada digitalmente, e isto garantia várias vantagens entre as quais a diminuição de ruído e diminuição de consumo de bateria comparando com a antiga geração analógica.
 
 = 3G
   Esta geração foi inicialmente disponibilizada no inicio do século 21. Esta foi marcada por uma maior taxa de transferência de informação que consequentemente disponibilizou um conjunto de aplicações que antes seriam impossíveis, entre as quais:
@@ -25,6 +25,9 @@
 
 = 4G para 5G
 
-  O aparecimento de uma nova geração advém do crescimento constante da necessidade de serviços móveis. Isto poderá dever-se a ambos o crescimento do número de "smartphones" ativos globalmente, bem como a proliferação do conceito de "internet of things", em que cada vez mais existem os mais variados tipos de sistemas embebidos que nos rodeiam (desde frigoríficos a aspiradores) que necessitam de uma ligação de dados móveis. Com isto em conta, o tráfego de dados móveis é previsto aumentar entre 20 a 50 vezes nos próximos 5 anos.(4)
+  O aparecimento de uma nova geração advém do crescimento constante da necessidade de serviços móveis. Isto poderá dever-se a ambos o crescimento do número de "smartphones" ativos globalmente, bem como a proliferação do conceito de "internet of things", em que cada vez mais existem os mais variados tipos de sistemas embebidos que nos rodeiam (desde frigoríficos a aspiradores) que necessitam de uma ligação de dados móveis. Com isto em conta, o tráfego de dados móveis é previsto aumentar entre 20 a 50 vezes nos próximos 5 anos.(7)
 
+Mobilidade de informação é um dos desafios relativamente a comunicações entre dispositivos móveis. Para tal, é necessário definir infraestruturas e modos de comunicação rápidos e fiáveis. Um equipamento necessário é chamado de "base station": Torres de telecomunicações rádio que, juntamente com antenas, servem de transmissores e receptores de sinais rádio e cooperam com aparelhos móveis.
+
+Uma alternativa inicial passava por construir uma torre grande com bastante alcance, cobrindo uma grande área. As principais desvantagens deste sistema passam por:
 
