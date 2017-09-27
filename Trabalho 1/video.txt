@@ -1,0 +1,63 @@
+De momento há cinco novas tecnologias que são a base fundamental do 5G:
+
+ONDAS MILIMÉTRICAS:
+Os nossos dispositivos eletrónicos usam frequências muito específicas, tipicamente
+aquelas abaixo dos 6 GHz. Mas essas frequências estão a começar a ficar lotadas e 
+começaremos a ter uma velocidade mais lenta e conexões mais instáveis. A solução é 
+expandir para novas frequências do espetro, aquelas entre os 30 e 300 GHz. Esta 
+secção do espetro nunca foi usada para dispositivos móveis e abri-la significa 
+maior largura de banda. Mas há um problema. Ondas milimétricas são facilmente
+bloqueadas por edifícios e outros obstáculos e tendem a ser absorvidas por plantas
+e chuva. Para resolver este problema necessitaremos de uma célula de pequenas 
+estações-base.
+
+CÉLULAS DE PEQUENAS ESTAÇÕES-BASE:
+A rede sem fios de hoje está suportada em torres de alta potência para emitir os
+seus sinais por longas distâncias. No entanto para resolver o problema das ondas
+milimétricas necessitaríamos de milhares de pequenas estações-base de menor
+potência. Estas estações-base estariam muito mais próximas umas das outras,
+formando uma espécie de rede capaz de transmitir o sinal mesmo atrás de obstáculos.
+Isto seria especialmente importante em cidades onde há uma maior densidade de 
+obstáculos. Sempre que um utilizador se movesse para detrás de um edifício, o seu
+smartphone iria automaticamente conectar-se a uma nova base com melhor alcance ao
+seu dispositivo, permitindo manter a conexão.
+
+MASSIVE MIMO:
+Multiple-input multiple-output (MIMO). As estações-base da rede 4G têm cerca
+de 12 antenas capazes de suportar todo o tráfico móvel. Mas as estações-base
+Massive MIMO são capazes de suportar cerca de 100 antenas. Isto aumentará a 
+capacidade das redes de hoje em cerca de 22 vezes mais. Obviamente, que esta
+tecnologia vem com as suas complicações: as antenas de hoje emitem o sinal em 
+todas as direções simultaneamente e todos os sinais cruzados podem causar 
+interferência. O que nos leva ao Beamforming.
+
+BEAMFORMING: 
+Beamforming é como um semáforo para redes móveis. Em vez de emitir sinais em
+todas as direções, permite à estação-base enviar um pacote de dados a um
+dispositivo em especifico. Isto previne interferência e é muito mais eficiente.
+Vejamos como funciona: imaginemos que estamos num aglomerado de edificios.
+Ao realizar uma chamada o sinal está a tabelar em todos os edifícios e a
+cruzarem com sinais de outros dispositivos. A estação-base de Massive MIMO
+recebe os sinais e guarda um registo do tempo e direção do sinal e executa
+algoritmos para calcular exatamente de onde cada sinal veio e o melhor caminho
+de transmissão para cada dispositivo. Isto irá impedir a interferência e o
+resultado é um pacote de dados enviado unicamente ao nosso dispositivo.
+
+FULL DUPLEX:
+As estações-base de hoje são apenas capazes de fazer um trabalho de cada vez: ou
+transmitir ou receber. Isto é por causa de um princípio chamado recíprocidade: é
+a tendência das ondas rádio viajarem em ambos os sentidos na mesma frequência.
+Para compreender é útil pensarmos numa onda como um comboio carregado de
+informação. A frequência em que esse comboio está a viajar é a linha do comboio e
+se há outro comboio no sentido oposto dessa mesma linha irá causar interferência.
+Até agora, a solução era fazer com que os comboios tivessem turnos ou colocar os
+comboios em diferentes linhas(frequências). Mas podemos fazer as coisas com muita
+mais eficiência trabalhando com a recíprocidade. Pesquisadores têm usado
+transistores de silicone para criar alternadores de alta velocidade. É como um
+sistema de sinalização capaz de momentaneamente alterar a rota dos dois comboios
+de modo a passarem um pelo outro no momento da interferência.
+
+Apesar de todas estas tecnologias, o 5G é ainda um sistema em desenvolvimento
+e irá provavelmente incluir outras novas tecnologias e fazer estes sistemas
+trabalharem juntos será outro grande desafio, mas se os especialistas conseguirem
+encontrar uma resposta o 5G poderá chegar dentro dos próximos 5 anos.
