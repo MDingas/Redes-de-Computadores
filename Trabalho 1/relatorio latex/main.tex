@@ -14,7 +14,6 @@
 \usepackage[utf8]{inputenc}
 
 \begin{document}
-
 \title{Redes de Computadores}
 \subtitle{1º Ensaio Escrito}
 %                                     also used for the TOC unless
@@ -66,10 +65,7 @@ A teclonogia 5G promente, entre outros objectivos:
     \item Velocidade 10Gbits/s
     \item Latências menores que 1ms
 \end{itemize}
-\\
-[TODO VITOR] % ^^^cita isto sff
-Seguem-se um conjunto de conceitos de comunicação móvel que necessitam de ser melhorados a modo de cumprir os requisitos prometidos pela tecnologia 5G.
-
+Seguem-se um conjunto de conceitos de comunicação móvel que necessitam de ser melhorados a modo de cumprir os requisitos prometidos pela tecnologia 5G. \\
 % PH
 \section{Desafios para a nova geração}
 
@@ -87,8 +83,7 @@ Uma alternativa inicial passava por construir uma torre grande com bastante alca
 \begin{itemize}
     \item Possibilidade de cobrir várias regiões que normalmente seriam impossíveis de alcançar
     \item Maior robustez: uma torre pode entrar em manutenção sem comprometer a integridade de toda a rede
-
-        item Reutilização de frequências: várias torres espalhadas geograficamente permite que a mesma frequência seja utilizada em regiões diferentes
+    \item Reutilização de frequências: várias torres espalhadas geograficamente permite que a mesma frequência seja utilizada em regiões diferentes
 \end{itemize}
 
 \begin{figure}[H]
@@ -107,7 +102,7 @@ Uma alternativa inicial passava por construir uma torre grande com bastante alca
 
 \subsection{Handover}
 %Antena ou estação de base?
-\hspace*{1.5em} \textit{handover} corresponde ao processo de transferência de uma ligação entre canais ligados a uma \textit{core network}. Estas delegações de responsabilidade podem ocorrer quando um equipamento se está a afastar da área de alcance de uma estação de base e a aproximar-se da área de uma outra, e assim evitar perda de ligação, ou quando se esgota a capacidade para novas conexões a uma estação de base e em áreas de alcance sobrepostas, dá-se a ligação a uma outra, por exemplo.
+\hspace*{1.5em} O \textit{handover} corresponde ao processo de transferência de uma ligação entre canais ligados a uma \textit{core network}. Estas delegações de responsabilidade podem ocorrer quando um equipamento se está a afastar da área de alcance de uma estação de base e a aproximar-se da área de uma outra, e assim evitar perda de ligação, ou quando se esgota a capacidade para novas conexões a uma estação de base e em áreas de alcance sobrepostas, dá-se a ligação a uma outra, por exemplo.
 
 O \textit{handover} pode ser de 2 tipos :
 \begin{itemize}
@@ -118,7 +113,7 @@ O \textit{handover} pode ser de 2 tipos :
 Para além desta última, na 5G prevê-se o uso de \textit{handover} sincronizado, que consiste no processo sem \textit{random access} em que o equipamento do utilizador e a estação de base, em sincronização, definem o momento em que o \textit{handover} deve ocorrer.
 
 \subsection{Largura de banda}
-\hspace*{1.5em} No mundo de hoje em que cada vez existem mais dispositivos móveis e que cada vez requerem maior taxa de transferência de dados. O problema é que todos estes dados são transmitidos na mesma banda, havendo uma competição por recursos que causa serviços geralmente mais lentos e queda de conceções. Uma solução passa pelo uso de sinais de espetro que normalmente não são usados, e a aplicação disso passa pelo uso de ondas milimetricas que desbloqueiam maiores larguras de banda e maiores taxas de transferência e dados \cite{Mis:El} \\
+\hspace*{1.5em} No mundo de hoje em que cada vez existem mais dispositivos móveis e que cada vez requerem maior taxa de transferência de dados. O problema é que todos estes dados são transmitidos na mesma banda, havendo uma competição por recursos que causa serviços geralmente mais lentos e queda de conexões. Uma solução passa pelo uso de sinais de espetro que normalmente não são usados, e a aplicação disso passa pelo uso de ondas milimetricas que desbloqueiam maiores larguras de banda e maiores taxas de transferência e dados \cite{Mis:El} \\
 \hspace*{1.5em} Uma desvantagem, porém, é o facto de que sinais com estes comprimentos de onda criam uma dificuldade em penetrar locais físicos, como edifícios ou quaisquer obstáculos urbanos \cite{everything:to:know}, mas considerando o preço de construção e manutenção destes é necessária uma visão estratégica e económica de cada problema em questão.
 \subsection{Capacidade de comunicação}
 \hspace*{1.5em} Uma outra preocupação é a de aumentar a capacidade das redes de comunicação móvel. Será explorada a ideia de MIMO (multiple-input multiple-output) e mais importantemente massive MIMO, que é a aplicação de várias antenas na mesma estação com visto a aumentar a capacidade das redes móveis 22 ou mais vezes \cite{everything:to:know} e neutralizar as desvantagens do uso de ondas milimetricas. \cite{Mis:El}
@@ -131,22 +126,6 @@ Para além desta última, na 5G prevê-se o uso de \textit{handover} sincronizad
 
 \hspace*{1.5em} Um problema que surge desta tecnologia é a ocorrência de interferência entre ondas, visto que vários transmissores estão compactados juntamente. Para tentar resolver este problema surge o conceito de "beamforming" que cria uma nova perspetiva no envio de sinais: em vez de enviar o sinal para todas as direções em volta do transmissor, tecnologias que implementem "beamforming" permitem envio de sinal apenas para o seu destino, reduzindo interferências entre ondas.
 \section{Casos de uso para 5G}
-\section{Frases importantes}
-%
-VP
-\\
-{\bf From Android Authority article:}\cite{Android}
-\\
-"The goals of 5G technology can be summarized in the following value points:"
-\begin{itemize}
-    \item 1,000x increase in capacity
-    \item Support for 100+ billion connections
-    \item Up to 10Gbit/s speeds
-    \item Below 1ms latency
-\end{itemize}
-A secção final - How 4G and 5G differ - aborda um bocado a interação da rede 5G com a Internet of Things e com a impossibilidade do 4G fazer isso.\\
-ARTIGO: http://www.androidauthority.com/4g-and-5g-wireless-how-they-are-alike-and-how-they-differ-615709/\\
-{\bf From Oportunities in 5G Networks book:}
 
 %
 % ---- Bibliography ----
