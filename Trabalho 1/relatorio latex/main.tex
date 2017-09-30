@@ -10,7 +10,10 @@
 
 \usepackage{float}
 \usepackage{graphicx} % Required to insert images
-\usepackage{url} % To format links
+\usepackage[hyphens,spaces,obeyspaces]{url}
+\urlstyle{same}
+\def\UrlBreaks{\do\/\do-} % Dealing with big links
+\usepackage{hyperref}
 
 %% Language and font encodings
 \usepackage[portuguese]{babel}
@@ -42,7 +45,7 @@
 
 \subsection{1G}
 %VP - Os primórdios da comunicação móvel começam na década de 80 pela Primeira Geração (1G). Esta geração usava sinais de rádio analógicos que eram transmitidos entre duas torres de rádio. Comparado às tecnologias dos seus antecessores (Geração Zero) é inferior em alguns aspetos devido ao facto de ter uma menor capacidade, handoff desconfiável e nenhuma segurança devido ao facto da chamada ser efetuada por sinais de rádio que podem ser intercetados por qualquer pessoa.%
-\hspace*{1.5em}Os primórdios da comunicação móvel começam na década de 80 pelo inicial 1G, cujo G significa "geração". Esta era a primeira tecnologia de comunicação móvel, e era marcada por comunicação analógica(1) com torres de rádio, permitindo chamadas de voz entre utilizadores. Como seria de esperar pela era quando começou, esta tecnologia era aplicada em dispositivos de comunicação com menos funcionalidades que as dos dias de hoje, entre as quais "pagers" e telefones sem fios \cite{Ton:Pan:Kus}
+\hspace*{1.5em}Os primórdios da comunicação móvel começam na década de 80 pelo inicial 1G, cujo G significa "geração". Esta era a primeira tecnologia de comunicação móvel, e era marcada por comunicação analógica\cite{Ton:Pan:Kus}com torres de rádio, permitindo chamadas de voz entre utilizadores. Como seria de esperar pela era quando começou, esta tecnologia era aplicada em dispositivos de comunicação com menos funcionalidades que as dos dias de hoje, entre as quais "pagers" e telefones sem fios \cite{Ton:Pan:Kus}
 
 \subsection{2G}
 \hspace*{1.5em}A segunda geração que foi introduzida no fim da década de 80 \cite{Ton:Pan:Kus} foi marcada pela era digital. As chamadas continuavam a ser enviadas via rádio, mas foi introduzida a prática de codificação digital. Ou seja, a informação que era transmitida pelos dispositivos móveis era inicialmente codificada digitalmente, e isto garantia várias vantagens entre as quais a diminuição de ruído e diminuição de consumo de bateria comparando com a antiga geração analógica.
@@ -57,7 +60,7 @@
 
 \subsection{4G}
 4G
-\hspace*{1.5em}A geração mais atual com uso em massa é a quarta, e é marcada com um conjunto de especificações que superiorizam as capacidades da geração anterior. Apesar de bastantes empresas publicitarem os seus serviços como 4G, bastantes deles não cumprem toda a gama de padrões definidos pela ITMA (International Mobile Telecommunications Advanced), entre as quais(5):
+\hspace*{1.5em}A geração mais atual com uso em massa é a quarta, e é marcada com um conjunto de especificações que superiorizam as capacidades da geração anterior. Apesar de bastantes empresas publicitarem os seus serviços como 4G, bastantes deles não cumprem toda a gama de padrões definidos pela ITMA (International Mobile Telecommunications Advanced), entre as quais\cite{standards}:
 \begin{itemize}
     \item Deve ser baseada num "IP packet switching" contra a alternativa de "circuit switching".
     \item Taxas de transferência de informação de 100Mb/s numa rede com bastante movimento, e de 1Gb/s em regiões de acesso "wireless" local.
@@ -165,62 +168,70 @@ Novos casos de uso que se esperam incluem :
 %
 % ---- Bibliography ----
 %
-\begin{thebibliography}{11}
+\begin{thebibliography}{15}
+
+\bibitem{Ton:Pan:Kus}
+Tondare S M,Panchal S D,Kushnure D T,
+2278-1021
+Evolutionary steps from 1G to 4.5G,
+International Journal of Advanced Research in Computer and Communication Engineering Vol. 3
+• Abril de 2014, página 1
+
+\bibitem{standards}
+Standards de \url{https://www.whatsag.com/G/Understanding_4G.php}
+
+\bibitem{Fei}
+Fei H.,
+Opportunities in 5G Networks: A Research and Development Perspective
+• 5 de Abril de 2016, página 34
+
+\bibitem{cisco}
+\url{https://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/mobile-white-paper-c11-520862.html}
+, 24 de Setembro de 2017
+
+\bibitem{img1}
+Imagem de torre rádio em \url{https://en.wikipedia.org/wiki/Cell_site}
+
+\bibitem{img2}
+Imagem de redes de torres móveis em \url{https://en.wikipedia.org/wiki/Cellular_network}
+
+\bibitem{Mis:El}
+H. M. El Misilmani and A. M. El-Hajj,
+978-1-5386-3250-5/17
+Massive MIMO Design for 5G Networks: An Overview on Alternative Antenna Configurations and Channel Model Challenges,
+2017 International Conference on High Performance Computing \& Simulation
+• 17-21 de Julho de 2017, página 288
+
+\bibitem{everything:to:know}
+Amy Nordrum, Kristen Clark e IEEE Spectrum Staff,
+Everything You Need to Know About 5G em
+\url{https://spectrum.ieee.org/video/telecom/wireless/everything-you-need-to-know-about-5g}
+, 27 de Janeiro 2017
+
+\bibitem{MIMO}
+Helen Knight,
+UK trials of massive MIMO bring 5G communications closer to reality em
+\url{https://www.theengineer.co.uk/uk-trials-of-massive-mimo-bring-5g-communications-closer-to-reality/}
+, 28 de Fevereiro de 2017
+
+\bibitem{website} Gustav Wikström, Daniel Larsson, LTE latency reductions: preparing for 5G, Ericsson Research Blog em \url{https://www.ericsson.com/research-blog/lte-latency-reductions-preparing-5g/}, 20 de Setembro de 2016
+
+\bibitem{website2} Per Synnergren, Torsten Dudda, LTE Latency Improvement Gains, Ericsson Research Blog em \url{https://www.ericsson.com/research-blog/lte-latency-improvement-gains/}, 4 de Novembro de 2014
+
+\bibitem{website3} Osman N. C. Yilmaz, Niklas A. Johansson, 5G Radio Access for Ultra-Reliable and Low-Latency Communications, Ericsson Research Blog em \url{https://www.ericsson.com/research-blog/5g-radio-access-for-ultra-reliable-and-low-latency-communications/}, 11 de Maio de 2015
+
+\bibitem{Android}
+Majeed Ahmad,
+4g and 5g wireless : How they are alike and how they differ em
+\url{http://www.androidauthority.com/4g-and-5g-wireless-how-they-are-alike-and-how-they-differ-615709/}
+, 24 de Setembro de 2017
+
+\bibitem{whitepaper} Ericsson White Paper, 5G systems - Enabling the Transformation of Industry and Society, Janeiro de 2017
 
 \bibitem{magazine} Mads Lauridsen, Lucas Chavarría Giménez, Ignacio Rodriguez, Troels B. Sørensen, and Preben Mogensen, From LTE to 5G for Connected Mobility, IEEE Communications Magazine • Março de 2017, páginas 156-162
 
 \bibitem{magazine2} Boyd Bangerter, Shilpa Talwar, Reza Arefi, and Ken Stewart, Intel, Networks and Devices for the 5G Era, IEEE Communications Magazine • Fevereiro de 2014, páginas 90-96
 
-\bibitem{website} Gustav Wikström, Daniel Larsson, LTE latency reductions: preparing for 5G, Ericsson Research Blog em \url{https://www.ericsson.com/research-blog/lte-latency-reductions-preparing-5g/}, 20 de Setembro de 2016
-
-\bibitem{website2} Per Synnergren, Torsten Dudda, LTE Latency Improvement Gains, Ericsson Research Blog \url{https://www.ericsson.com/research-blog/lte-latency-improvement-gains/}, 4 de Novembro de 2014
-
-\bibitem{website3} Osman N. C. Yilmaz, Niklas A. Johansson, 5G Radio Access for Ultra-Reliable and Low-Latency Communications, Ericsson Research Blog em \url{https://www.ericsson.com/research-blog/5g-radio-access-for-ultra-reliable-and-low-latency-communications/}, 11 de Maio de 2015
-
-\bibitem{whitepaper} Ericsson White Paper, 5G systems - Enabling the Transformation of Industry and Society, Janeiro de 2017
-
- \bibitem{Ton:Pan:Kus}
- Tondare S M,Panchal S D,Kushnure D T,
- 2278-1021
- Evolutionary steps from 1G to 4.5G,
- International Journal of Advanced Research in Computer and Communication Engineering Vol. 3
- • Abril de 2014, página 1
-
- \bibitem{Fei}
- Fei H.,
- Opportunities in 5G Networks: A Research and Development Perspective
- • 5 de Abril de 2016, página 34
-
- \bibitem{everything:to:know}
- Amy Nordrum, Kristen Clark e IEEE Spectrum Staff,
- Everything You Need to Know About 5G
- • 27 de Janeiro 2017
-
- \bibitem{Mis:El}
- H. M. El Misilmani and A. M. El-Hajj,
- 978-1-5386-3250-5/17
- Massive MIMO Design for 5G Networks: An Overview on Alternative Antenna Configurations and Channel Model Challenges,
- 2017 International Conference on High Performance Computing \& Simulation
- • 17-21 de Julho de 2017, página 288
- \bibitem{img1}
- em \url{https://en.wikipedia.org/wiki/Cell_site}
-
- \bibitem{img2}
- em \url{https://en.wikipedia.org/wiki/Cellular_network}
-
-\bibitem{Android}
-Majeed Ahmad,
-4g and 5g wireless : How they are alike and how they differ
-em \url{http://www.androidauthority.com/4g-and-5g-wireless-how-they-are-alike\\
--and-how-they-differ-615709/}
-• 24 de Setembro de 2017
-
-\bibitem{MIMO}
-em \url{https://www.theengineer.co.uk/uk-trials-of-massive-mimo-bring-5g-\\communications-closer-to-reality/}
-
-\bibitem{cisco}
-em \url{https://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/mobile-white-paper-c11-520862.html}
-• 24 de Setembro de 2017
 \end{thebibliography}
 
 \end{document}
