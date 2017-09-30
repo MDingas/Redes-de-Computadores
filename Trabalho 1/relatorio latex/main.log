@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  30 SEP 2017 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  30 SEP 2017 22:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -644,14 +644,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 35.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] <torre.jpeg, id=60, 884.30376pt x 2108.87875pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] <torre.jpeg, id=68, 884.30376pt x 2108.87875pt>
 File: torre.jpeg Graphic file (type jpg)
  <use torre.jpeg>
 Package pdftex.def Info: torre.jpeg used on input line 133.
 (pdftex.def)             Requested size: 113.19589pt x 269.94843pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 135.
- <network.png, id=63, 401.5pt x 324.21124pt>
+ <network.png, id=71, 401.5pt x 324.21124pt>
 File: network.png Graphic file (type png)
  <use network.png>
 Package pdftex.def Info: network.png used on input line 138.
@@ -664,7 +664,7 @@ Overfull \hbox (44.54497pt too wide) in paragraph at lines 138--139
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5] <mimo.png, id=80, 6022.5pt x 4015.0pt>
+ [5] <mimo.png, id=88, 6022.5pt x 4015.0pt>
 File: mimo.png Graphic file (type png)
  <use mimo.png>
 Package pdftex.def Info: mimo.png used on input line 151.
@@ -721,10 +721,10 @@ Here is how much of TeX's memory you used:
  352 hyphenation exceptions out of 8191
  29i,8n,27p,1473b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (9 pages, 39641011 bytes).
+Output written on main.pdf (9 pages, 39641215 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 196 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
  45 named destinations out of 1000 (max. 500000)
  24 words of extra memory for PDF output out of 10000 (max. 10000000)
 
