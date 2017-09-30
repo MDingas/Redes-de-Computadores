@@ -14,7 +14,7 @@
 
 %% Language and font encodings
 \usepackage[portuguese]{babel}
-\usepackage[utf8x]{inputenc}
+\usepackage[utf8]{inputenc}
 
 \begin{document}
 \title{Redes de Computadores}
@@ -104,7 +104,7 @@ O \textit{handover} pode ser de 2 tipos :
 	\item \textbf{hard \textit{handover}} (ou break-before-make), é implementação escolhida pela tecnologia 4G LTE e consiste na quebra da ligação ativa com uma estação-base, de modo a que o dispositivo se ligue a outra, estando na sua área de alcance. Este método obriga então a um período em que a ligação deixa de existir, entre o momento em que o dispositivo do utilizador se desliga da estação-base original e se liga à nova. No caso da referência [1], na zona onde foram efetuados os testes, o tempo medido de inatividade no handover apresentava uma mediana na ordem dos 40 ms. Este tempo revela-se desadequado e impossibilita vários dos planos de uso pretendidos para implementações de tecnologias 5G, tais como meios de transporte autónomos e \textit{platooning}, onde o conhecimento da localização e velocidade dos veículos a cada momento é fulcral. Para além disto, verificou-se que a ligação se perdia em 1\% dos \textit{handovers} tentados. O subsequente processo de restabelecimento da ligação aumenta a duração do \textit{handover} para vários segundos, o que, novamente, impossibilita o sucesso de casos de uso que exijam total segurança e cuja fiabilidade e eficiência é crítica.
 	\item \textbf{soft \textit{handover}} (ou make-before-break) será uma das soluções propostas para implementação na 5ª geração de redes móveis. Neste método, o equipamento conecta-se à estação-base alvo antes de se desconectar da estação-base que o serve. Prevê-se que na 5G sejam possíveis várias ligações a estações-base em simultâneo. Este plano tem custos associados devido à maior complexidade exigida aos dispositivos dos utilizadores, uma vez que necessitarão de processar vários sinais em simultâneo, e a uma maior carga sobre a rede, já que vários canais de várias estações-base estarão dedicados a uma só ligação. Em comparação, o \textit{hard handover} é mais simples, o que também se traduz em benefícios económicos, e como haverá apenas um canal ocupado por uma ligação a cada momento, a rede não se encontrará tão carregada. No entanto, a fiabilidade oferecida pelo \textit{soft handover} é significativamente maior, não apenas, mas também em situações de handover, uma vez que havendo várias ligações síncronas, o melhor sinal pode ser usado ou até poderão ser combinados os sinais de modo a obter uma melhor cópia do sinal. A complexidade adicional e maior carga sobre a rede, se ultrapassadas ou balanceadas de modo a poder usufruir dos benefícios do \textit{soft handover} sem grandes custos, abrirão portas aos usos que tanto requerem confiança nas ligações.
 \end{itemize}
-	
+
 Para além desta última, na 5G prevê-se o uso de \textit{handover} sincronizado, que consiste no processo sem \textit{random access} em que o equipamento do utilizador e a estação-base, em sincronização, definem o momento em que o \textit{handover} deve ocorrer, o que constitui uma técnica benéfica em processos de handover.
 
 \subsection{Mobilidade e manutenção}
