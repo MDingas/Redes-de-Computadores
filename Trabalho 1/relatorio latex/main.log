@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  30 SEP 2017 22:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  1 OCT 2017 17:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -644,87 +644,84 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 35.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] <torre.jpeg, id=68, 884.30376pt x 2108.87875pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] <torre.jpeg, id=50, 884.30376pt x 2108.87875pt>
 File: torre.jpeg Graphic file (type jpg)
  <use torre.jpeg>
-Package pdftex.def Info: torre.jpeg used on input line 133.
+Package pdftex.def Info: torre.jpeg used on input line 110.
 (pdftex.def)             Requested size: 113.19589pt x 269.94843pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 135.
- <network.png, id=71, 401.5pt x 324.21124pt>
+(Font)              <9> on input line 112.
+ <network.png, id=53, 401.5pt x 324.21124pt>
 File: network.png Graphic file (type png)
  <use network.png>
-Package pdftex.def Info: network.png used on input line 138.
+Package pdftex.def Info: network.png used on input line 115.
 (pdftex.def)             Requested size: 200.7495pt x 162.10522pt.
 
-Overfull \hbox (44.54497pt too wide) in paragraph at lines 138--139
+Overfull \hbox (44.54497pt too wide) in paragraph at lines 115--116
  [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5] <mimo.png, id=88, 6022.5pt x 4015.0pt>
+[4] <mimo.png, id=70, 6022.5pt x 4015.0pt>
 File: mimo.png Graphic file (type png)
  <use mimo.png>
-Package pdftex.def Info: mimo.png used on input line 151.
+Package pdftex.def Info: mimo.png used on input line 128.
 (pdftex.def)             Requested size: 301.14264pt x 200.76176pt.
- [6 <./torre.jpeg> <./network.png>] [7 <./mimo.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 178.
+ [5 <./torre.jpeg> <./network.png>] [6 <./mimo.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 159.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 178.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 159.
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--191
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
 [][]$\OT1/cmr/m/n/9 https : / / www\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 cisco\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 com / c / en / us / solutions / collateral / service -[] provider / visual -[]
  []
 
 
-Underfull \hbox (badness 3333) in paragraph at lines 206--210
+Underfull \hbox (badness 3333) in paragraph at lines 187--191
 []\OT1/cmr/m/n/9 Amy Nor-drum, Kris-ten Clark e IEEE Spec-trum Staff, Everything You
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 221--222
+Underfull \hbox (badness 1502) in paragraph at lines 202--203
 []\OT1/cmr/m/n/9 Osman N. C. Yil-maz, Ni-klas A. Johans-son, 5G Ra-dio Ac-cess for Ultra-
  []
 
 
-Underfull \hbox (badness 4779) in paragraph at lines 221--222
+Underfull \hbox (badness 4779) in paragraph at lines 202--203
 \OT1/cmr/m/n/9 Reliable and Low-Latency Com-mu-ni-ca-ti-ons, Erics-son Re-se-arch Blog em
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
 []$\OT1/cmr/m/n/9 https : / / www\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 ericsson\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 com / research -[] blog / 5g -[] radio -[] access -[] for -[] ultra -[] reliable -[]
  []
 
-[8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
+[7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
+ [8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 237.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2ADC1974E337E2E325208EC18A714730;56.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 237.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 218.
  ) 
 Here is how much of TeX's memory you used:
- 6354 strings out of 494356
- 89856 string characters out of 6164340
+ 6339 strings out of 494356
+ 89621 string characters out of 6164340
  192750 words of memory out of 5000000
- 9565 multiletter control sequences out of 15000+600000
+ 9554 multiletter control sequences out of 15000+600000
  10456 words of font info for 36 fonts, out of 8000000 for 9000
  352 hyphenation exceptions out of 8191
  29i,8n,27p,1473b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (9 pages, 39641215 bytes).
+Output written on main.pdf (8 pages, 39637618 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
- 45 named destinations out of 1000 (max. 500000)
+ 180 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
  24 words of extra memory for PDF output out of 10000 (max. 10000000)
 
