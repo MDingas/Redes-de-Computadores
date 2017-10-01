@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  1 OCT 2017 23:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  2 OCT 2017 00:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -727,7 +727,7 @@ Here is how much of TeX's memory you used:
  352 hyphenation exceptions out of 8191
  29i,8n,27p,1475b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/edgar/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1000.600pk> </home/edgar/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/edgar/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/edgar/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/edgar/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk> </home/edgar/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/edgar/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/edgar/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0800.600pk> </home/edgar/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/edgar/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (9 pages, 39613673 bytes).
+Output written on main.pdf (9 pages, 39613674 bytes).
 PDF statistics:
  524 PDF objects out of 1000 (max. 8388607)
  165 compressed objects within 2 object streams
