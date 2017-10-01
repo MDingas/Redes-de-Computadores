@@ -1,0 +1,43 @@
+--Aspetos necessários melhorar para garantir os requisitos prometidos pela tecnologia 5G
+-Largura de banda
+#Porque?
+  Cada vez mais dispositivos móveis, e cada um deles cada vez requer maior taxa
+de transferência de dados para garantir que as suas aplicações funcionam como
+desejado(caso contrário, perda de conexões e lentidão).
+#Problema
+  Todavia, todos estes operam sobre a mesma banda, pelo que existe uma escassez
+de recursos e existe a necessidade de alargar o espectro electromagnético
+utilizado de algum modo.
+#Solução
+  Uma tecnologia passa pelo de "ondas milimetricas", que desbloqueiam uma nova
+secção do espectro electromagnético. Devido à sua frequência elevada e, mais
+importante diferente das frequências usadas em tecnologias móveis de consumo em
+massa.
+#Desvantagens
+  Todavia, estas ondas não passam obstáculos com facilidade, podendo ser
+facilmente absorvidas por edifícios, árvores e até o corpo humano, causando um
+grande problema que pode sobrepor as vantagens que este método entrega.
+#Soluções
+  Para resolver este problema, existe a necessidade de estudar melhor estas
+ondas. Uma solução passa por espalhar repetidores pelas regiões,mas isto é
+geralmente uma decisão baseada em estratégia económica.
+-Capacidade de comunicação
+#Porque?
+  Análogo à secção anterior, existem cada vez mais dispositivos móveis a requerer
+pedidos de comunicações. Assim, as infraestruturas atuais não estão equipadas
+para um crescimento tão grande de utilizadores e as suas necessidades
+cada vez maiores. Há uma necessidade de aumentar a capacidade de utilizadores
+que uma torre consegue ajudar.
+#Problema
+  As base stations atuais não têm capacidade de lidar com a quantidade de
+pedidos de modo a garantir que todos os utilizadores estejam satisfeitos.
+#Solução
+  Uma solução passa pelo uso de tecnologias MIMO(Massive input massive output)
+caracterizado por torres com mais do que uma antenas de modo a enviar mais
+sinais do que previamente enviou.
+#Desvantagens
+  Não é uma solução perfeita pois várias antenas compactas a transmitir sinais
+causam interferência, que minimizam as vantagens que este método criou.
+#Soluções
+  A redução de interferências entre ondas pode ser altamente minimizada pelo uso
+de tecnologias "beamforming".
