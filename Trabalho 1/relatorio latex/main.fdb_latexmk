@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1506881689 "main.tex" "main.pdf" "main" 1506881693
+["pdflatex"] 1506887745 "main.tex" "main.pdf" "main" 1506887745
   "/etc/texmf/web2c/texmf.cnf" 1494178030 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/edgar/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1000.600pk" 1506876108 34088 6fe1bc36ea8571369a93a5dc7a552369 ""
   "/home/edgar/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0800.600pk" 1506876111 19852 17e31243e307184faa03f4519dab7650 ""
@@ -88,13 +88,13 @@
   "llncs.cls" 1506513530 41702 c53aeb6af2981c2c13265ad1a8cffa80 ""
   "main.aux" 1506881693 3129 ceb4886888ba2834a34756d2f287da72 ""
   "main.out" 1506881693 56 2adc1974e337e2e325208ec18a714730 ""
-  "main.tex" 1506881688 20016 ca780dfa0250e611cc2148b49b08c255 ""
+  "main.tex" 1506887744 22613 fc3d01e031fb4f75118fd4ece273a21a ""
   "mimo.png" 1506513532 22248028 6ee7ae7e48c91458a3a069905a80cc7a ""
   "network.png" 1506513532 17288 959b1409c690d685fada9e5dd20d6037 ""
   "remreset.sty" 1506513530 1095 da87b73cc5b92af4513e2f9e22aa404e ""
   "torre.jpeg" 1506513532 508408 6fcb2998c901cc847b313b93b898829a ""
   (generated)
-  "main.aux"
-  "main.log"
   "main.out"
+  "main.log"
+  "main.aux"
   "main.pdf"
